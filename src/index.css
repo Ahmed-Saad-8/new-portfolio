@@ -9,9 +9,17 @@ body {
   width: 100%;
 }
 
-.playpen-sans-arabic-header {
+.playpen-sans-header {
   font-family: "Playpen Sans Arabic", cursive;
   font-size: xx-large;
   font-weight: 800;
   font-style: normal;
+}
+
+@theme {
+  --color-nav: #e6cd1d;
+}
+
+@utility flex-center {
+  @apply flex justify-between items-center;
 }
